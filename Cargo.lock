@@ -882,9 +882,9 @@ dependencies = [
 
 [[package]]
 name = "itertools"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25db6b064527c5d482d0423354fcd07a89a2dfe07b67892e62411946db7f07b0"
+checksum = "ba291022dbbd398a455acf126c1e341954079855bc60dfdda641363bd6922569"
 dependencies = [
  "either",
 ]
@@ -1283,7 +1283,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3633d65683f13b9bcfaa3150880b018899fb0e5d0542f4adaea4f503fdb5eabf"
 dependencies = [
  "heck",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "proc-macro2",
  "proc-macro2-diagnostics",
  "quote",
@@ -1499,7 +1499,7 @@ dependencies = [
  "convert_case",
  "dashmap",
  "insta",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "language-tags",
  "lazy_static",
  "memchr",
@@ -1533,7 +1533,7 @@ name = "oxc_macros"
 version = "0.0.0"
 dependencies = [
  "convert_case",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "proc-macro2",
  "quote",
  "syn 1.0.109",
@@ -1544,7 +1544,7 @@ name = "oxc_minifier"
 version = "0.5.0"
 dependencies = [
  "insta",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "jemallocator",
  "mimalloc",
  "num-bigint",
@@ -1667,7 +1667,7 @@ version = "0.5.0"
 dependencies = [
  "bitflags 2.4.1",
  "indexmap",
- "itertools 0.12.0",
+ "itertools 0.12.1",
  "miette",
  "oxc_allocator",
  "oxc_ast",
